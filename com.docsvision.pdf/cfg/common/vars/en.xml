@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+	<variable id="Unordered List bullet">&#x2014;</variable>
+	<variable id="Unordered List bullet 1">&#x2014;</variable>
+	<variable id="Unordered List bullet 2">&#x2014;</variable>
+	<variable id="Unordered List bullet 3">&#x2014;</variable>
+	<variable id="Unordered List bullet 4">&#x2014;</variable>
+	
+	<variable id="Ordered List Format 1">1</variable>
+	<variable id="Ordered List Format 2">1</variable>
+	<variable id="Ordered List Format 3">1</variable>
+	<variable id="Ordered List Format 4">1</variable>
+
+	<variable id="Substep Format">1</variable>
+	<variable id="Substep Number"><param ref-name="number"/>. </variable>
+	
+	<variable id="Bullet Image Path">Customization/OpenTopic/common/artwork/list_item.jpg</variable>
+	<variable id="note Note Image Path">Customization/OpenTopic/common/artwork/noteicon.jpg</variable>
+	<variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/noteicon.jpg</variable>
+	<variable id="attention Note Image Path">Customization/OpenTopic/common/artwork/attentionicon.jpg</variable>
+	<variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/cautionicon.jpg</variable>
+	<variable id="danger Note Image Path">Customization/OpenTopic/common/artwork/cautionicon.jpg</variable>
+	<variable id="fastpath Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+	<variable id="important Note Image Path">Customization/OpenTopic/common/artwork/importanticon.jpg</variable>
+	<variable id="remember Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+	<variable id="Сopyright Owner">DocsVision Ltd</variable>
+</vars>

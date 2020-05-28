@@ -1,0 +1,2 @@
+В переменных средах должна быть прописана переменная
+NODE_PATH со значением C:\Program Files\nodejs\node_modules\

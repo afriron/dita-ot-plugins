@@ -1,0 +1,100 @@
+html,body
+{
+    border:0;
+    margin:0;
+    padding:0
+}
+
+.header-container
+{
+    background:#271f47;
+    border-style:none;
+    display:block;
+    height:74px;
+    margin:0;
+    position:relative;
+    width:100%
+}
+
+.body-container
+{
+    bottom:4px;
+    display:block;
+    position:absolute;
+    top:90px;
+    width:100%
+}
+
+.menu-container
+{
+    float:left;
+    height:100%;
+    width:400px
+}
+
+.content-container
+{
+    border-left-color:#b6b6b6;
+    border-left-style:solid;
+    border-left-width:1px;
+    height:100%;
+    margin-left:400px;
+    width:auto
+}
+
+.link-to-current-topic
+{
+    bottom:6px;
+    color:grey;
+    font-family:Arial,sans-serif;
+    font-size:9px;
+    position:absolute;
+    right:30px
+}
+
+.search-container
+{
+    background:#fff;
+    border:0;
+    display:block;
+    padding:2px;
+    position:absolute;
+    right:30px;
+    top:24px
+}
+
+a.link-to-index-page,a.link-to-index-page:visited,a.link-to-index-page:hover,a.link-to-index-page:focus
+{
+    color:#fff;
+    font-family:Tahoma;
+    font-size:32px;
+    font-weight:700;
+    left:30px;
+    position:absolute;
+    text-decoration:none;
+    top:17px
+}
+
+#search-btn
+{
+    margin-bottom:-2px;
+    margin-right:4px;
+    z-index:999
+}
+
+.search-string
+{
+    background:transparent;
+    border:none;
+    color:darkslategrey;
+    font-size:12pt;
+    margin-left:4px;
+    width:210px
+}
+
+#menuFrame,#contentFrame
+{
+    border-style:none;
+    height:100%;
+    width:100%
+}

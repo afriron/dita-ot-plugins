@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+<variable id="Copyright Owner">ООО "ДоксВижн"</variable>
+
+<variable id="Document version Label">Версия документа:</variable>
+<variable id="Product version Label">Версия</variable>
+<variable id="Introduction Label">Аннотация</variable>
+<variable id="Table of Contents">Оглавление</variable>
+<variable id="Index Continued String">продолжающийся</variable>
+
+<variable id="Table of Contents Chapter">Глава&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+<variable id="Table of Contents Appendix">Приложение&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+<variable id="Table of Contents Part">Часть&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+<variable id="Table of Contents Preface">Предисловие:&#xA0;</variable>
+<variable id="Page"> стр. <param ref-name="pagenum"/></variable>
+
+<variable id="Table.title">Таблица <param ref-name="number"/> - <param ref-name="title"/></variable>
+<variable id="Figure.title">Рисунок <param ref-name="number"/> - <param ref-name="title"/></variable>
+<variable id="Long Copyright">Все права защищены © 1998 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/></variable>
+<variable id="Short Copyright">© 1998 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/>. Все права защищены</variable>  
+<variable id="Ordered List Number"><param ref-name="number"/>. </variable>
+
+<variable id="Notices title">Сообщение</variable>
+<variable id="Mini Toc">Темы: </variable>
+<variable id="Related Links">См. также:</variable>
+<variable id="Cross-Reference">Перекрестная ссылка на:</variable>
+<variable id="Content-Reference">Содержимое из:</variable>
+<variable id="Untitled section">Раздел без названия.</variable>
+<variable id="List item">Элемент списка.</variable>
+<variable id="Foot note">Сноска.</variable>
+<variable id="Navigation title">Название для навигации</variable>
+<variable id="Search title">Название для поиска</variable>
+<variable id="On the page"></variable>
+<variable id="This link">это ссылка</variable>
+<variable id="Child topics">Нижестоящие темы</variable>
+<variable id="Related concepts">Понятия, связанные с данным</variable>
+<variable id="Related tasks">Задачи, связанные с данной</variable>
+<variable id="Related information">Информация, связанная с данной</variable>
+<variable id="Contents button title">Оглавление</variable>
+<variable id="Index button title">Алфавитный указатель</variable>
+<variable id="Search button title">Поиск</variable>
+<variable id="Back button title">Назад</variable>
+<variable id="Forward button title">Вперед</variable>
+<variable id="Main page button title">Домой</variable>
+<variable id="Previous page button title">Предыдущая тема</variable>
+<variable id="Next page button title">Следующая тема</variable>
+<variable id="Online help prefix">Помощь Online</variable>
+<variable id="Search index field title">Поиск по ключевому слову:</variable>
+<variable id="Search index button title">Обзор</variable>
+<variable id="Search text field title">Поиск помощи для:</variable>
+<variable id="Search text button title">Поиск</variable>  
+
+<variable id="Note">Примечание</variable>
+<variable id="Notice">Аккуратно</variable>
+<variable id="Tip">Совет</variable>
+<variable id="Important">Обратите внимание!</variable>
+<variable id="Fastpath">Быстрый путь</variable>
+<variable id="Remember">Напоминание</variable>
+<variable id="Attention">Это важно!</variable>
+<variable id="Caution">Осторожно</variable>
+<variable id="Danger">ОПАСНО</variable>
+<variable id="Restriction">Ограничение</variable>
+</vars>

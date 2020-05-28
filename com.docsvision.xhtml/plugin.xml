@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.docsvision.xhtml">
+	<require plugin="org.dita.xhtml" />
+	<require plugin="com.docsvision.localization"/>
+	
+	
+	<feature extension="dita.conductor.xhtml.param" file="insertParameters.xml"/>
+	<feature extension="dita.xsl.xhtml" file="xsl/dita2htmlImpl.xsl"/><!-- формирование страницы-->
+	<feature extension="dita.conductor.transtype.check" value="xhtml-dv"/>
+	<feature extension="dita.conductor.target.relative" file="integrator.xml"/>
+	<feature extension="package.version" value="1.0"/>
+</plugin>

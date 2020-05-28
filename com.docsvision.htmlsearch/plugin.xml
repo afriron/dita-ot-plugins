@@ -1,0 +1,3 @@
+<plugin id="com.docsvision.htmlsearch">
+  <feature extension="dita.conductor.target" value="integrator.xml" type="file"/>
+</plugin>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+
+<font-mappings>
+  <font-table>
+
+    <!-- Backwards compatibility aliases -->
+    <aliases>
+      <alias name="serif">Verdana</alias>
+    </aliases>
+    <aliases>
+      <alias name="sans-serif">Verdana</alias>
+    </aliases>
+    <aliases>
+      <alias name="monospace">Monospaced</alias>
+    </aliases>
+    <aliases>
+      <alias name="Helvetica">Verdana</alias>
+    </aliases>
+    <aliases>
+      <alias name="Courier">Verdana</alias>
+    </aliases>
+    <aliases>
+      <alias name="Verdana">Verdana</alias>
+    </aliases>
+    <aliases>
+      <alias name="Verdana Light">Verdana Light</alias>
+    </aliases>
+    <aliases>
+      <alias name="Verdana Bold">Verdana Bold</alias>
+    </aliases>
+    <aliases>
+      <alias name="Verdana Italic">Verdana Italic</alias>
+    </aliases>
+
+    <logical-font name="Verdana">
+      <physical-font char-set="default">
+        <font-face>Verdana, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="Symbols">
+        <font-face>Verdana, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="SubmenuSymbol">
+        <font-face>Verdana, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="SymbolsSuperscript">
+        <font-face>Verdana, Arial</font-face>
+        <baseline-shift>20%</baseline-shift>
+        <override-size>smaller</override-size>
+      </physical-font>
+    </logical-font>
+
+    <logical-font name="Verdana Light">
+      <physical-font char-set="default">
+        <font-face>Verdana Light, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="Symbols">
+        <font-face>Verdana Light, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="SubmenuSymbol">
+        <font-face>Verdana Light, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="SymbolsSuperscript">
+        <font-face>Verdana Light, Arial</font-face>
+        <baseline-shift>20%</baseline-shift>
+        <override-size>smaller</override-size>
+      </physical-font>
+    </logical-font>
+
+    <logical-font name="Verdana Bold">
+      <physical-font char-set="default">
+        <font-face>Verdana Bold, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="Symbols">
+        <font-face>Verdana Bold, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="SubmenuSymbol">
+        <font-face>Verdana Bold, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="SymbolsSuperscript">
+        <font-face>Verdana Bold, Arial</font-face>
+        <baseline-shift>20%</baseline-shift>
+        <override-size>smaller</override-size>
+      </physical-font>
+    </logical-font>
+
+    <logical-font name="Verdana Italic">
+      <physical-font char-set="default">
+        <font-face>Verdana Italic, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="Symbols">
+        <font-face>Verdana Italic, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="SubmenuSymbol">
+        <font-face>Verdana Italic, Arial</font-face>
+      </physical-font>
+      <physical-font char-set="SymbolsSuperscript">
+        <font-face>Verdana Italic, Arial</font-face>
+        <baseline-shift>20%</baseline-shift>
+        <override-size>smaller</override-size>
+      </physical-font>
+
+    </logical-font>
+    <logical-font name="Monospaced">
+      <physical-font char-set="default">
+        <font-face>JetBrains Mono, Courier New, Arial</font-face>
+      </physical-font>
+    </logical-font>
+  </font-table>
+</font-mappings>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+
+<variable id="Copyright Owner">DocsVision LLC</variable>
+
+<variable id="Document version Label">Document edition:</variable>
+<variable id="Product version Label">Version</variable>
+<variable id="Introduction Label">Introduction</variable>
+<variable id="Table of Contents">Contents</variable>
+<variable id="Index Continued String">continued</variable>
+
+<variable id="Table of Contents Chapter">Chapter&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+<variable id="Table of Contents Appendix">Appendix&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+<variable id="Table of Contents Part">Part&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+<variable id="Table of Contents Preface">Preface:&#xA0;</variable>
+<variable id="Page"> page <param ref-name="pagenum"/></variable>
+
+<variable id="Table.title">Table <param ref-name="number"/>: <param ref-name="title"/></variable>
+<variable id="Figure.title">Figure <param ref-name="number"/>: <param ref-name="title"/></variable>
+<variable id="Long Copyright">Copyright © 1998 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/>. All rights reserved.</variable>
+<variable id="Short Copyright">© 1998 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/>. All rights reserved</variable>  
+<variable id="Ordered List Number"><param ref-name="number"/>. </variable>
+
+
+<variable id="Notices title">Notice</variable>
+<variable id="Mini Toc">Topics: </variable>
+<variable id="Related Links">Related Links:</variable>
+<variable id="Cross-Reference">Cross-Reference to:</variable>
+<variable id="Content-Reference">Content-Reference to:</variable>
+<variable id="Untitled section">Untitled section.</variable>
+<variable id="List item">List item.</variable>
+<variable id="Foot note">Footnote.</variable>
+<variable id="Navigation title">Navigation title</variable>
+<variable id="Search title">Search title</variable>
+<variable id="On the page"></variable>
+<variable id="This link">this link</variable>
+<variable id="Child topics">Child Topics</variable>
+<variable id="Related concepts">Related Concepts</variable>
+<variable id="Related tasks">Related Tasks</variable>
+<variable id="Related information">Related References</variable>
+<variable id="Contents button title">Contents</variable>
+<variable id="Index button title">Index</variable>
+<variable id="Search button title">Search</variable>
+<variable id="Back button title">Back</variable>
+<variable id="Forward button title">Forward</variable>
+<variable id="Main page button title">Home</variable>
+<variable id="Previous page button title">Previous Topic</variable>
+<variable id="Next page button title">Next Topic</variable>
+<variable id="Online help prefix">Online Help</variable>
+<variable id="Search index field title">Search for the keyword:</variable>
+<variable id="Search index button title">View</variable>
+<variable id="Search text field title">Search help for:</variable>
+<variable id="Search text button title">Search</variable>  
+
+<variable id="Note">Note</variable>
+<variable id="Notice">Notice</variable>
+<variable id="Tip">Tip</variable>
+<variable id="Important">Important</variable>
+<variable id="Fastpath">Fastpath</variable>
+<variable id="Remember">Remember</variable>
+<variable id="Attention">Attention</variable>
+<variable id="Caution">Caution</variable>
+<variable id="Danger">Danger</variable>
+<variable id="Restriction">Restriction</variable>
+
+</vars>

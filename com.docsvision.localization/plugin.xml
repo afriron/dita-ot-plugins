@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.docsvision.localization">
+	<!-- проброс заказанной локализации в шаблоны -->
+	<feature extension="dita.conductor.pdf2.param" file="insertParametrs.xsl"/>
+	<feature extension="dita.conductor.xhtml.param" file="insertParametrs.xsl"/>
+	
+	<!-- добавление в метод getVariable логики получения данных с приоритетом на файлы локализации данного плагина-->
+	<feature extension="dita.xsl.xslfo" file="common.xsl"/>
+	<feature extension="dita.xsl.xhtml" file="common.xsl"/>
+</plugin>

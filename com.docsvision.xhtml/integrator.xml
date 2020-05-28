@@ -1,0 +1,56 @@
+<project name="com.docsvision.xhtml" xmlns:dita="http://dita-ot.sourceforge.net">	
+		
+	<target name="dita2xhtml-dv.init">
+		<property name="transtype" value="xhtml"/>
+		<property name="args.xhtml.toc" value="tocnav"/>
+		<property name="args.xhtml.toc.xsl" value="${dita.plugin.com.docsvision.xhtml.dir}/xsl/map2toc.xsl"/>
+		<property name="args.css.file" value="style.css"/>
+		<property name="user.csspath" value="css/"/>
+		<property name="clean-temp.skip" value="true"/>
+	</target>
+	
+	<target name="dita2xhtml-dv" depends="dita2xhtml-dv.init, dita2xhtml, xhtml.indexing, nodejs.createindex, xhtml.dv.cover, xhtml.indexfile, xhtml.dvresource" />
+	
+	<target name="xhtml.dv.cover" unless="noMap">
+		<xslt basedir="${dita.temp.dir}" destdir="${output.dir}" includesfile="${dita.temp.dir}/${user.input.file.listfile}" 
+		classpathref="dost.class.path" style="${dita.plugin.com.docsvision.xhtml.dir}/xsl/map2cover.xsl">
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+			<param name="CSS" expression="${args.css.file}" if="args.css.file" />
+			<param name="CSSPATH" expression="${user.csspath}" if="user.csspath" />
+			<param name="DEFAULTLANG" expression="${lang}" if="lang"/>
+			<param name="pbuild" expression="${pbuild}" if="pbuild"/>
+			<mapper type="glob" from="${dita.input.filename}" to="cover.html"/>
+			<xmlcatalog refid="dita.catalog"/>
+		</xslt>
+	</target>
+		
+	<target name="xhtml.indexfile">
+		<xslt in="${dita.temp.dir}\${dita.input.filename}" out="${output.dir}\index.html" 
+			style="${dita.plugin.com.docsvision.xhtml.dir}\xsl\map2index.xsl">
+		</xslt>
+	</target>
+
+	<target name="xhtml.indexing">
+		  <xslt basedir="${dita.temp.dir}" destdir="${dita.temp.dir}"
+		  includesfile="${dita.temp.dir}${file.separator}${user.input.file.listfile}" 
+		  classpathref="dost.class.path" 
+		  style="${dita.plugin.com.docsvision.htmlsearch.dir}\xsl\topic2index.xsl">
+		
+		<mergemapper to="indexesSource.js"/>
+        <xmlcatalog refid="dita.catalog"/>
+      </xslt>
+	
+	</target>
+	
+	<target name="xhtml.dvresource">
+		<copy overwrite="true" todir="${output.dir}">
+			<fileset dir="${dita.plugin.com.docsvision.xhtml.dir}\resource"> 
+				<include name="**/*"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="copy-css" unless="user.csspath.url">
+		
+	</target>
+</project>

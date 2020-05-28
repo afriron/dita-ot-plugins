@@ -1,0 +1,4 @@
+<dummy>
+  	<param name="include.rellinks" expression="${rellinks}" if="rellinks"/>
+  	<param name="pbuild" expression="${pbuild}" if="pbuild"/>
+</dummy>

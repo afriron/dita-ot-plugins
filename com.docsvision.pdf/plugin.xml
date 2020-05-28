@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
+
+<plugin id="com.docsvision.pdf">
+	<require plugin="org.dita.pdf2"/>
+	<require plugin="com.docsvision.localization"/>
+
+	<transtype name="pdf-dv" extends="pdf"/>
+
+	<feature extension="dita.transtype.print" value="pdf-dv"/>
+	<feature extension="dita.conductor.pdf2.param" file="insertParametrs.xsl"/>
+
+	<feature extension="ant.import" file="integrator.xml"/>
+	
+</plugin>

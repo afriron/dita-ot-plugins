@@ -1,0 +1,1 @@
+uglifyjs json2.js lz-string.js elasticlunr.js lunr.stemmer.support.js lunr.ru.js lunr.multi.js -o sbundle.js

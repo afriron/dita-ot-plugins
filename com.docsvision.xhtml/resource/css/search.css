@@ -1,0 +1,148 @@
+body,h1,h2,h3,h4,p,table,td,caption,th,ul,ol,dl,li,dd,dt
+{
+	color:#000;
+	font-family:Arial,sans-serif;
+	font-size:9pt
+}
+
+body
+{
+	background:#fff none repeat scroll 0 50%;
+	margin:0;
+	padding:0
+}
+
+input::-ms-clear
+{
+	display:none
+}
+
+#textToSearch
+{
+	margin-left:4px
+}
+
+#search-btn
+{
+	margin-bottom:-2px;
+	margin-right:4px;
+	z-index:999
+}
+
+#currentLink
+{
+	background:transparent;
+	border:0;
+	bottom:18px;
+	color:grey;
+	font-size:9px;
+	position:absolute;
+	right:14px
+}
+
+.header img
+{
+	border:none;
+	margin:0
+}
+
+a:visited
+{
+	color:#271f47
+}
+
+a:hover
+{
+	color:#271f47;
+	font-weight:700
+}
+
+li
+{
+	margin-bottom:0;
+	margin-top:7px
+}
+
+.noie
+{
+	color:#bbd02d;
+	font-family:arial;
+	font-size:14px;
+	margin:5px auto 0
+}
+
+.searchExpression
+{
+	background-color:#8CD7F5;
+	color:#224458;
+	font-size:8pt
+}
+
+ul.searchresult li a
+{
+	color:#224458;
+	text-decoration:none
+}
+
+ul.searchresult
+{
+	list-style-type:none
+}
+
+.shortdesclink
+{
+	color:gray;
+	font-size:9pt;
+	font-style:italic
+}
+
+.searchTitle
+{
+	background:transparent;
+	border:none;
+	color:#FFF;
+	font-size:7pt
+}
+
+.searchText
+{
+	background:transparent;
+	border:none;
+	color:#000;
+	font-size:12pt;
+	width:210px
+}
+
+.searchresult li
+{
+	clear:both;
+	display:block;
+	float:none;
+	margin:5px 10px;
+	padding-left:10px
+}
+
+a:link,ul.searchresult li
+{
+	color:#224458
+}
+
+a.docsvision,a.docsvision:visited,a.docsvision:hover,a.docsvision:focus
+{
+	color:#fff;
+	font-family:Tahoma;
+	font-size:32px;
+	font-weight:700;
+	text-decoration:none
+}
+
+.header
+{
+	background:#92c83e;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-color:#b6b6b6;
+	display:block;
+	height:74px;
+	margin:0
+}
