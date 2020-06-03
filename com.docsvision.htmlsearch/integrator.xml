@@ -1,6 +1,6 @@
 <project>   
 	<target name="nodejs.createindex">
-	  <exec executable="node.exe" dir="${dita.temp.dir}" failonerror="true">
+	  <exec executable="node" dir="${dita.temp.dir}" failonerror="true">
 		<arg value="${dita.plugin.com.docsvision.htmlsearch.dir}\js\createIndex.js"/>
 		<env key="NODE_PATH" value="${dita.plugin.com.docsvision.htmlsearch.dir}\node_modules\"/>
 	  </exec>
