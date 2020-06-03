@@ -1,7 +1,7 @@
 <project>   
 	<target name="nodejs.createindex">
 	  <exec executable="node" dir="${dita.temp.dir}" failonerror="true">
-		<arg value="${dita.plugin.com.docsvision.htmlsearch.dir}\js\createIndex.js"/>
+		<arg value="${dita.plugin.com.docsvision.htmlsearch.dir}/js/createIndex.js"/>
 	  </exec>
 	  <copy file="${dita.temp.dir}/indexes.js" todir="${output.dir}/js"/>
 	</target>
