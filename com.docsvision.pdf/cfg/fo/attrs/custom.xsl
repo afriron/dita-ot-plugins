@@ -434,15 +434,14 @@
 
     <xsl:attribute-set name="filepathblock">
         <xsl:attribute name="background-color">#F2F2F2</xsl:attribute>
-        <xsl:attribute name="padding-left">3pt</xsl:attribute>
-        <xsl:attribute name="padding-right">3pt</xsl:attribute>
+        <xsl:attribute name="padding-left">0pt</xsl:attribute>
+        <xsl:attribute name="padding-right">0pt</xsl:attribute>
         <xsl:attribute name="padding-top">1px</xsl:attribute>
         <xsl:attribute name="padding-bottom">1px</xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:attribute-set name="filepath">
         <xsl:attribute name="font-family">Monospaced</xsl:attribute>
-        <!--xsl:attribute name="font-size">from-parent(font-size)</xsl:attribute-->
         <xsl:attribute name="font-size">10px</xsl:attribute>
         <xsl:attribute name="vertical-align">middle</xsl:attribute>
     </xsl:attribute-set>

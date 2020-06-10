@@ -239,6 +239,7 @@
 		</fo:external-graphic>
 	</xsl:template>
 
+<!-- &#x200B; -->
 
 	<xsl:template match="text()">
 		<xsl:choose>
@@ -246,13 +247,7 @@
 				<xsl:value-of select="."/>
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:variable name="text1" select="replace(.,'\.','.&#x200B;')"/>
-				<xsl:variable name="text2" select="replace($text1,'-','-&#x200B;')"/>
-				<xsl:variable name="text3" select="replace($text2,'&#x002F;','&#x002F;&#x200B;')"/>
-				<xsl:variable name="text4" select="replace($text3,'&#x200B;&#x20;','&#x20;')"/>
-				<xsl:variable name="text5" select="replace($text4,'&#x002F;&#x200B;&#x002F;','&#x002F;&#x002F;')"/>
-				<xsl:variable name="text6" select="replace($text5,'\.&#x200B;.&#x20;','..&#x20;')"/>
-				<xsl:value-of select="$text6"/>
+				<xsl:value-of select="replace(.,'([\.&#x002F;-]{1})([^\.\s&#x002F;-])','$1&#x200B;$2')"/>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -657,12 +652,12 @@
 
  <xsl:template match="*[contains(@class,' sw-d/filepath ')]">
  	<fo:inline xsl:use-attribute-sets="filepathblock">
-      <fo:inline xsl:use-attribute-sets="filepath">
-        <xsl:call-template name="commonattributes"/>
-        <xsl:apply-templates/>
-      </fo:inline>
-       	</fo:inline>
-    </xsl:template>
+	 <fo:inline xsl:use-attribute-sets="filepath">
+	 <xsl:call-template name="commonattributes"/>
+	 <xsl:apply-templates />
+	 </fo:inline>
+	 </fo:inline>
+  </xsl:template>
 
  <xsl:template match="*[contains(@class,' pr-d/codeph ')]">
  	<fo:inline xsl:use-attribute-sets="filepathblock">
@@ -670,7 +665,7 @@
         <xsl:call-template name="commonattributes"/>
         <xsl:apply-templates/>
       </fo:inline>
-       	</fo:inline>
+	  </fo:inline>
     </xsl:template>
 
   <xsl:template match="*[contains(@class, ' topic/div ')]">
