@@ -93,21 +93,21 @@ available in the base directory of this plugin.
   </xsl:template>
   
   <xsl:template match='xslthl:comment' mode="xslthl">
-    <fo:inline font-style="italic" color="#006400"><xsl:apply-templates mode="xslthl"/></fo:inline>
+    <fo:inline font-style="italic" color="#3f7f5f"><xsl:apply-templates mode="xslthl"/></fo:inline>
   </xsl:template>
   
   <xsl:template match='xslthl:tag' mode="xslthl">
-    <fo:inline font-weight="bold" color="#000096"><xsl:apply-templates mode="xslthl"/></fo:inline>
+    <fo:inline font-weight="bold" color="#008080"><xsl:apply-templates mode="xslthl"/></fo:inline>
   </xsl:template>
   <xsl:template match='xslthl:xslt' mode="xslthl">
     <fo:inline font-weight="bold" color="#0092E6"><xsl:apply-templates mode="xslthl"/></fo:inline>
   </xsl:template>
   <xsl:template match='xslthl:attribute' mode="xslthl">
-    <fo:inline font-weight="bold" color="#ff7935"><xsl:apply-templates mode="xslthl"/></fo:inline>
+    <fo:inline color="#7f0055"><xsl:apply-templates mode="xslthl"/></fo:inline>
   </xsl:template>
   
   <xsl:template match='xslthl:value' mode="xslthl">
-    <fo:inline font-weight="bold" color="#993300" ><xsl:apply-templates mode="xslthl"/></fo:inline>
+    <fo:inline color="#0000FF" ><xsl:apply-templates mode="xslthl"/></fo:inline>
   </xsl:template>
   
   <xsl:template match='xslthl:number' mode="xslthl">
@@ -124,7 +124,7 @@ available in the base directory of this plugin.
   
   <!-- Not sure which element will be in final XSLTHL 2.0 -->
   <xsl:template match='xslthl:doccomment' mode="xslthl">
-    <fo:inline font-weight="bold" color="#3f5fbf"><xsl:apply-templates mode="xslthl"/></fo:inline>
+    <fo:inline font-weight="bold" color="#3f7f5f"><xsl:apply-templates mode="xslthl"/></fo:inline>
   </xsl:template>
   
   <xsl:template match='xslthl:doctype' mode="xslthl">
